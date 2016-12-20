@@ -20,15 +20,15 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-@IBAction func openCameraButton(sender: AnyObject) {
-    weak var Camera: UIButton!
-    if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.Camera) {
-        var imagePicker = UIImagePickerController()
-        imagePicker.delegate = self
-        imagePicker.sourceType = UIImagePickerControllerSourceType.Camera;
-        imagePicker.allowsEditing = false
-        self.presentViewController(imagePicker, animated:
-            true, completion: nil)
+    @IBAction func openCameraButton(sender: AnyObject) {
+        weak var Camera: UIButton!
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera) {
+            let imagePicker = UIImagePickerController()
+            imagePicker.delegate = self
+            imagePicker.sourceType = UIImagePickerControllerSourceType.camera;
+            imagePicker.allowsEditing = false
+            self.present(imagePicker, animated:
+                true, completion: nil)
         }
     }
 

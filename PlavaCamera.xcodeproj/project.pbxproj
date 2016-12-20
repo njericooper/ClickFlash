@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1F0A441E09CD7A0070B1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F0A431E09CD7A0070B1B3 /* AppDelegate.swift */; };
+		8C1F0A461E09CD7A0070B1B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F0A451E09CD7A0070B1B3 /* ViewController.swift */; };
+		8C1F0A491E09CD7A0070B1B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1F0A471E09CD7A0070B1B3 /* Main.storyboard */; };
+		8C1F0A4B1E09CD7A0070B1B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1F0A4A1E09CD7A0070B1B3 /* Assets.xcassets */; };
+		8C1F0A4E1E09CD7A0070B1B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1F0A4C1E09CD7A0070B1B3 /* LaunchScreen.storyboard */; };
+		8C1F0A591E09CD7A0070B1B3 /* PlavaCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F0A581E09CD7A0070B1B3 /* PlavaCameraTests.swift */; };
+		8C1F0A641E09CD7A0070B1B3 /* PlavaCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F0A631E09CD7A0070B1B3 /* PlavaCameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C1F0A551E09CD7A0070B1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C1F0A381E09CD7A0070B1B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C1F0A3F1E09CD7A0070B1B3;
+			remoteInfo = PlavaCamera;
+		};
+		8C1F0A601E09CD7A0070B1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C1F0A381E09CD7A0070B1B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C1F0A3F1E09CD7A0070B1B3;
+			remoteInfo = PlavaCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C1F0A401E09CD7A0070B1B3 /* PlavaCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlavaCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1F0A431E09CD7A0070B1B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C1F0A451E09CD7A0070B1B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C1F0A481E09CD7A0070B1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C1F0A4A1E09CD7A0070B1B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C1F0A4D1E09CD7A0070B1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C1F0A4F1E09CD7A0070B1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1F0A541E09CD7A0070B1B3 /* PlavaCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlavaCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1F0A581E09CD7A0070B1B3 /* PlavaCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlavaCameraTests.swift; sourceTree = "<group>"; };
+		8C1F0A5A1E09CD7A0070B1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1F0A5F1E09CD7A0070B1B3 /* PlavaCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlavaCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1F0A631E09CD7A0070B1B3 /* PlavaCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlavaCameraUITests.swift; sourceTree = "<group>"; };
+		8C1F0A651E09CD7A0070B1B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C1F0A3D1E09CD7A0070B1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1F0A511E09CD7A0070B1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1F0A5C1E09CD7A0070B1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1F0A371E09CD7A0070B1B3 = {
+			isa = PBXGroup;
+			children = (
+				8C1F0A421E09CD7A0070B1B3 /* PlavaCamera */,
+				8C1F0A571E09CD7A0070B1B3 /* PlavaCameraTests */,
+				8C1F0A621E09CD7A0070B1B3 /* PlavaCameraUITests */,
+				8C1F0A411E09CD7A0070B1B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1F0A411E09CD7A0070B1B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F0A401E09CD7A0070B1B3 /* PlavaCamera.app */,
+				8C1F0A541E09CD7A0070B1B3 /* PlavaCameraTests.xctest */,
+				8C1F0A5F1E09CD7A0070B1B3 /* PlavaCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C1F0A421E09CD7A0070B1B3 /* PlavaCamera */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F0A431E09CD7A0070B1B3 /* AppDelegate.swift */,
+				8C1F0A451E09CD7A0070B1B3 /* ViewController.swift */,
+				8C1F0A471E09CD7A0070B1B3 /* Main.storyboard */,
+				8C1F0A4A1E09CD7A0070B1B3 /* Assets.xcassets */,
+				8C1F0A4C1E09CD7A0070B1B3 /* LaunchScreen.storyboard */,
+				8C1F0A4F1E09CD7A0070B1B3 /* Info.plist */,
+			);
+			path = PlavaCamera;
+			sourceTree = "<group>";
+		};
+		8C1F0A571E09CD7A0070B1B3 /* PlavaCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F0A581E09CD7A0070B1B3 /* PlavaCameraTests.swift */,
+				8C1F0A5A1E09CD7A0070B1B3 /* Info.plist */,
+			);
+			path = PlavaCameraTests;
+			sourceTree = "<group>";
+		};
+		8C1F0A621E09CD7A0070B1B3 /* PlavaCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F0A631E09CD7A0070B1B3 /* PlavaCameraUITests.swift */,
+				8C1F0A651E09CD7A0070B1B3 /* Info.plist */,
+			);
+			path = PlavaCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C1F0A3F1E09CD7A0070B1B3 /* PlavaCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1F0A681E09CD7A0070B1B3 /* Build configuration list for PBXNativeTarget "PlavaCamera" */;
+			buildPhases = (
+				8C1F0A3C1E09CD7A0070B1B3 /* Sources */,
+				8C1F0A3D1E09CD7A0070B1B3 /* Frameworks */,
+				8C1F0A3E1E09CD7A0070B1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlavaCamera;
+			productName = PlavaCamera;
+			productReference = 8C1F0A401E09CD7A0070B1B3 /* PlavaCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C1F0A531E09CD7A0070B1B3 /* PlavaCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1F0A6B1E09CD7A0070B1B3 /* Build configuration list for PBXNativeTarget "PlavaCameraTests" */;
+			buildPhases = (
+				8C1F0A501E09CD7A0070B1B3 /* Sources */,
+				8C1F0A511E09CD7A0070B1B3 /* Frameworks */,
+				8C1F0A521E09CD7A0070B1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C1F0A561E09CD7A0070B1B3 /* PBXTargetDependency */,
+			);
+			name = PlavaCameraTests;
+			productName = PlavaCameraTests;
+			productReference = 8C1F0A541E09CD7A0070B1B3 /* PlavaCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C1F0A5E1E09CD7A0070B1B3 /* PlavaCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1F0A6E1E09CD7A0070B1B3 /* Build configuration list for PBXNativeTarget "PlavaCameraUITests" */;
+			buildPhases = (
+				8C1F0A5B1E09CD7A0070B1B3 /* Sources */,
+				8C1F0A5C1E09CD7A0070B1B3 /* Frameworks */,
+				8C1F0A5D1E09CD7A0070B1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C1F0A611E09CD7A0070B1B3 /* PBXTargetDependency */,
+			);
+			name = PlavaCameraUITests;
+			productName = PlavaCameraUITests;
+			productReference = 8C1F0A5F1E09CD7A0070B1B3 /* PlavaCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C1F0A381E09CD7A0070B1B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Njeri Cooper";
+				TargetAttributes = {
+					8C1F0A3F1E09CD7A0070B1B3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					8C1F0A531E09CD7A0070B1B3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C1F0A3F1E09CD7A0070B1B3;
+					};
+					8C1F0A5E1E09CD7A0070B1B3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C1F0A3F1E09CD7A0070B1B3;
+					};
+				};
+			};
+			buildConfigurationList = 8C1F0A3B1E09CD7A0070B1B3 /* Build configuration list for PBXProject "PlavaCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C1F0A371E09CD7A0070B1B3;
+			productRefGroup = 8C1F0A411E09CD7A0070B1B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1F0A3F1E09CD7A0070B1B3 /* PlavaCamera */,
+				8C1F0A531E09CD7A0070B1B3 /* PlavaCameraTests */,
+				8C1F0A5E1E09CD7A0070B1B3 /* PlavaCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C1F0A3E1E09CD7A0070B1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1F0A4E1E09CD7A0070B1B3 /* LaunchScreen.storyboard in Resources */,
+				8C1F0A4B1E09CD7A0070B1B3 /* Assets.xcassets in Resources */,
+				8C1F0A491E09CD7A0070B1B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1F0A521E09CD7A0070B1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1F0A5D1E09CD7A0070B1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1F0A3C1E09CD7A0070B1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1F0A461E09CD7A0070B1B3 /* ViewController.swift in Sources */,
+				8C1F0A441E09CD7A0070B1B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1F0A501E09CD7A0070B1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1F0A591E09CD7A0070B1B3 /* PlavaCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1F0A5B1E09CD7A0070B1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1F0A641E09CD7A0070B1B3 /* PlavaCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C1F0A561E09CD7A0070B1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C1F0A3F1E09CD7A0070B1B3 /* PlavaCamera */;
+			targetProxy = 8C1F0A551E09CD7A0070B1B3 /* PBXContainerItemProxy */;
+		};
+		8C1F0A611E09CD7A0070B1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C1F0A3F1E09CD7A0070B1B3 /* PlavaCamera */;
+			targetProxy = 8C1F0A601E09CD7A0070B1B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C1F0A471E09CD7A0070B1B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1F0A481E09CD7A0070B1B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C1F0A4C1E09CD7A0070B1B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C1F0A4D1E09CD7A0070B1B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C1F0A661E09CD7A0070B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C1F0A671E09CD7A0070B1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C1F0A691E09CD7A0070B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlavaCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NjeriCooper.PlavaCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8C1F0A6A1E09CD7A0070B1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlavaCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NjeriCooper.PlavaCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8C1F0A6C1E09CD7A0070B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlavaCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NjeriCooper.PlavaCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlavaCamera.app/PlavaCamera";
+			};
+			name = Debug;
+		};
+		8C1F0A6D1E09CD7A0070B1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlavaCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NjeriCooper.PlavaCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlavaCamera.app/PlavaCamera";
+			};
+			name = Release;
+		};
+		8C1F0A6F1E09CD7A0070B1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PlavaCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NjeriCooper.PlavaCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlavaCamera;
+			};
+			name = Debug;
+		};
+		8C1F0A701E09CD7A0070B1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PlavaCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NjeriCooper.PlavaCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PlavaCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C1F0A3B1E09CD7A0070B1B3 /* Build configuration list for PBXProject "PlavaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1F0A661E09CD7A0070B1B3 /* Debug */,
+				8C1F0A671E09CD7A0070B1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1F0A681E09CD7A0070B1B3 /* Build configuration list for PBXNativeTarget "PlavaCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1F0A691E09CD7A0070B1B3 /* Debug */,
+				8C1F0A6A1E09CD7A0070B1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C1F0A6B1E09CD7A0070B1B3 /* Build configuration list for PBXNativeTarget "PlavaCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1F0A6C1E09CD7A0070B1B3 /* Debug */,
+				8C1F0A6D1E09CD7A0070B1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C1F0A6E1E09CD7A0070B1B3 /* Build configuration list for PBXNativeTarget "PlavaCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1F0A6F1E09CD7A0070B1B3 /* Debug */,
+				8C1F0A701E09CD7A0070B1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C1F0A381E09CD7A0070B1B3 /* Project object */;
+}

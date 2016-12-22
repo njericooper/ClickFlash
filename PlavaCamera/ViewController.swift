@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  PlavaCamera
 //
-//  Created by CLOUD901/Admin on 12/20/16.
+//  Created by Njeri Cooper on 12/20/16.
 //  Copyright © 2016 Njeri Cooper. All rights reserved.
 //
 

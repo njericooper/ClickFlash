@@ -18,11 +18,11 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,
     @IBAction func useCamera(sender: AnyObject) {
         
         if UIImagePickerController.isSourceTypeAvailable(
-            UIImagePickerControllerSourceType.Camera){
+            UIImagePickerControllerSourceType.camera){
                 let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
             imagePicker.sourceType =
-                UIImagePickerControllerSourceType.Camera
+                UIImagePickerControllerSourceType.camera
             imagePicker.mediaTypes = [kUTTypeImage as NSString]
             imagePicker.allowsEditing = false
             self.presentViewController(imagePicker, animated:true,

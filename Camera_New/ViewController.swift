@@ -23,9 +23,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,
             imagePicker.delegate = self
             imagePicker.sourceType =
                 UIImagePickerControllerSourceType.camera
-            imagePicker.mediaTypes = [kUTTypeImage as NSString]
+            imagePicker.mediaTypes = [(kUTTypeImage as NSString) as String]
             imagePicker.allowsEditing = false
-            self.presentViewController(imagePicker, animated:true,
+            self.present(imagePicker, animated:true,
                 completion:nil)
         newMedia = true
         }
@@ -34,14 +34,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,
     @IBAction func useCameraRoll(sender: AnyObject){
         
         if UIImagePickerController.isSourceTypeAvailable(
-            UIImagePickerControllerSourceType.Camera){
+            UIImagePickerControllerSourceType.camera){
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
             imagePicker.sourceType =
-                UIImagePickerControllerSourceType.Camera
-            imagePicker.mediaTypes = [kUTTypeImage as NSString]
+                UIImagePickerControllerSourceType.camera
+            imagePicker.mediaTypes = [(kUTTypeImage as NSString) as String]
             imagePicker.allowsEditing = false
-            self.presentViewController(imagePicker, animated:true,
+            self.present(imagePicker, animated:true,
                                        completion:nil)
             newMedia = true
         }

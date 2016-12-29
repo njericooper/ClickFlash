@@ -42,8 +42,8 @@
                                             <barButtonItem title="Camera Roll" id="npX-AB-T0t"/>
                                         </items>
                                     </toolbar>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oqD-kb-IjT">
-                                        <rect key="frame" x="-10" y="45" width="395" height="387"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oqD-kb-IjT">
+                                        <rect key="frame" x="0.0" y="45" width="375" height="387"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="387" id="eqB-a4-g2J"/>
                                         </constraints>

@@ -12,7 +12,9 @@ import MobileCoreServices
 class ViewController: UIViewController, UIImagePickerControllerDelegate,
     UINavigationControllerDelegate {
     
+    
     @IBOutlet weak var imageView: UIImageView!
+   
     var newMedia: Bool?
     
     @IBAction func useCamera(sender: AnyObject) {
